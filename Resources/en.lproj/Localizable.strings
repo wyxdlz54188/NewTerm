@@ -2,81 +2,81 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<!-- Generic title displayed before the terminal sets a proper title. -->
+	<!-- 终端设置正确标题前显示的通用标题 -->
 	<key>TERMINAL</key>
-	<string>Terminal</string>
+	<string>终端</string>
 
-	<!-- Title of Settings page. -->
+	<!-- 设置页面的标题 -->
 	<key>SETTINGS</key>
-	<string>Settings</string>
+	<string>设置</string>
 
-	<!-- Title of About page. -->
+	<!-- 关于页面的标题 -->
 	<key>ABOUT</key>
-	<string>About NewTerm</string>
+	<string>关于 NewTerm</string>
 
-	<!-- VoiceOver label for the password manager button. -->
+	<!-- 密码管理器按钮的旁白标签 -->
 	<key>PASSWORD_MANAGER</key>
-	<string>Password Manager</string>
+	<string>密码管理器</string>
 
-	<!-- Message displayed in the terminal when it fails to start. -->
+	<!-- 终端启动失败时显示的消息 -->
 	<key>TERMINAL_LAUNCH_FAILED</key>
-	<string>The shell process quit unexpectedly.</string>
+	<string>Shell 进程意外退出。</string>
 
-	<!-- Alert title displayed when a terminal could not be launched. -->
+	<!-- 终端无法启动时显示的警告标题 -->
 	<key>TERMINAL_LAUNCH_FAILED_TITLE</key>
-	<string>Couldn’t start the terminal because the shell process quit unexpectedly.</string>
+	<string>无法启动终端，因为 Shell 进程意外退出。</string>
 
-	<!-- Alert body displayed when a terminal could not be launched. -->
+	<!-- 终端无法启动时显示的警告内容 -->
 	<key>TERMINAL_LAUNCH_FAILED_BODY</key>
-	<string>Refer to the error message in the terminal window for more details.
-You may need to review startup scripts or reinstall core packages to fix this issue.</string>
+	<string>请参阅终端窗口中的错误信息以获取更多详情。
+您可能需要检查启动脚本或重新安装核心软件包来解决此问题。</string>
 
-	<!-- Title displayed when the terminal’s process has ended. -->
+	<!-- 终端进程结束时显示的标题 -->
 	<key>PROCESS_COMPLETED_TITLE</key>
-	<string>Session Ended</string>
+	<string>会话已结束</string>
 
-	<!-- VoiceOver label for the new tab button. -->
+	<!-- 新建标签按钮的旁白标签 -->
 	<key>NEW_TAB</key>
-	<string>New Tab</string>
+	<string>新建标签</string>
 
-	<!-- VoiceOver label for the close tab button. -->
+	<!-- 关闭标签按钮的旁白标签 -->
 	<key>CLOSE_TAB</key>
-	<string>Close Tab</string>
+	<string>关闭标签</string>
 
-	<!-- VoiceOver label for the new window button. -->
+	<!-- 新建窗口按钮的旁白标签 -->
 	<key>NEW_WINDOW</key>
-	<string>New Window</string>
+	<string>新建窗口</string>
 
-	<!-- VoiceOver label for the close window button. -->
+	<!-- 关闭窗口按钮的旁白标签 -->
 	<key>CLOSE_WINDOW</key>
-	<string>Close Window</string>
+	<string>关闭窗口</string>
 
-	<!-- VoiceOver label for a button that clears the terminal. -->
+	<!-- 清除终端按钮的旁白标签 -->
 	<key>CLEAR_TERMINAL</key>
-	<string>Clear Terminal</string>
+	<string>清除终端</string>
 
-	<!-- VoiceOver label for the button that reveals the password manager. -->
+	<!-- 显示密码管理器按钮的旁白标签 -->
 	<key>PASSWORD_MANAGER</key>
-	<string>Password Manager</string>
+	<string>密码管理器</string>
 
-	<!-- Label for a keyboard shortcut that selects the previous tab. -->
+	<!-- 选择上一个标签的键盘快捷键标签 -->
 	<key>SHOW_PREVIOUS_TAB</key>
-	<string>Show Previous Tab</string>
+	<string>显示上一个标签</string>
 
-	<!-- Label for a keyboard shortcut that selects the next tab. -->
+	<!-- 选择下一个标签的键盘快捷键标签 -->
 	<key>SHOW_NEXT_TAB</key>
-	<string>Show Next Tab</string>
+	<string>显示下一个标签</string>
 
-	<!-- VoiceOver label for a button that splits the tab horizontally and adds a new terminal below. -->
+	<!-- 水平拆分标签并在下方添加新终端的按钮旁白标签 -->
 	<key>SPLIT_HORIZONTALLY</key>
-	<string>Split Horizontally</string>
+	<string>水平拆分</string>
 
-	<!-- VoiceOver label for a button that splits the tab vertically and adds a new terminal to the right. -->
+	<!-- 垂直拆分标签并在右侧添加新终端的按钮旁白标签 -->
 	<key>SPLIT_VERTICALLY</key>
-	<string>Split Vertically</string>
+	<string>垂直拆分</string>
 
-	<!-- Settings option to use the operating system’s locale. %@ is the user’s operating system language. -->
+	<!-- 使用操作系统区域语言的设置选项。%@ 是用户的系统语言 -->
 	<key>LOCALE_SYSTEM</key>
-	<string>System Language: %@</string>
+	<string>系统语言：%@</string>
 </dict>
 </plist>
